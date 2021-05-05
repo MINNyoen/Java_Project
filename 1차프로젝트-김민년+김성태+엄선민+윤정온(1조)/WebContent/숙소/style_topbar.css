@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+* {
+	font-family: 'Noto Sans KR', sans-serif;
+	list-style: none;
+	text-decoration: none;
+	border-collapse: collapse;
+	margin: 0px;
+	padding: 0px;
+	color: #000;
+}
+
+.header {
+	background: white;
+	position: fixed;
+	display: flex;
+	width: 100%;
+	margin: auto;
+	height: 60px;
+}
+
+.logo {
+	diplay: flex;
+	width: 300px;
+	height: 60px;
+}
+
+.logo>a {
+	font-family: 'PT Serif', serif;
+	font-size: 40px;
+	color: skyblue;
+	margin-left: 100px;
+}
+
+.navi {
+	display: flex;
+	justify-content: flex-end;
+	width: 80%;
+	margin-top: 20px;
+}
+
+.navi>li {
+	margin-left: 84px;
+}
+
+.navi>li>a {
+	color: black;
+}

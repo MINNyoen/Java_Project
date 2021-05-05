@@ -1,0 +1,257 @@
+@charset "UTF-8";
+
+* {
+	font-family: 'Noto Sans KR', sans-serif;
+	list-style: none;
+	text-decoration: none;
+	border-collapse: collapse;
+	margin: 0px;
+	padding: 0px;
+	color: #000;
+}
+.blank {
+	width: 100%;
+	height: 60px;
+}
+.login {
+	width: 50%;
+	height: 500px;
+	background-image: url("image/m1.jpg");
+	margin: auto;
+	border-radius: 100px;
+	margin-top: 100px;
+}
+.login>a {
+	font-family: 'PT Serif', serif;
+	font-size: 100px;
+	color: skyblue;
+	margin-left: 30%;
+}
+.login>form {
+	width: 700px;
+	height: 300px;
+	margin: auto;
+	margin-top: 25px;
+}
+.id {
+	font-family: Noto Sans KR;
+	font-size: 50px;
+	color: skyblue;
+	margin-left: 11%;
+	
+}
+.pw {
+	font-family: Noto Sans KR;
+	font-size: 50px;
+	color: skyblue;
+	margin-left: 10%;
+	
+}
+.login>form>input {
+	width: 400px;
+	height: 70px;
+	font-size:20px;
+	border-radius: 40px;
+	border-color: skyblue;
+	border-width: 5px;
+}
+.login>form>input>placeholder {
+	width: 50px;
+}
+.login>form>button {
+	font-family: 'PT Serif', serif;
+	width: 400px;
+	height: 70px;
+	margin-left: 25%;
+	margin-top: 30px;
+	font-size: 30px;
+	color: white;
+	background: skyblue;
+	
+}
+.login>form>h3 {
+	font-size: 27px;
+	color: white;
+	text-align: center;
+	
+}
+.mypage_list {
+	width: 100%;
+	height: 150px;
+	background: url("imgae/m1.jpg");
+	margin-top: 50px;
+}
+.mypage_list>span {
+	width: 200px;
+	height: 100px;
+	background: black;
+	margin-top: 100px;
+	margin-left: 20%;
+}
+.mypage_list>span>hr {
+	width: 130px;
+	height: 10px;
+	background: black;
+	margin-right: 55%;
+}
+.mypage_list>span>h4 {
+	font-size: 30px;
+	width: 200px;
+	height: 50px;
+	margin-top: 10px;
+	margin-left: 20%;
+}
+.mypage_list1 {
+	display: flex;
+	justify-content: flex-end;
+	magin-top: 100px;
+	margin-right: 60px;
+}
+.mypage_list1>li {
+	margin-left: 70px;
+}
+.mypage_list1>li>a {
+	font-size: 20px;
+}
+.mypage {
+	width: 100%;
+	height: 300px;
+	background: #dce3e3;
+}
+.mypage>ul {
+	width: 50%;
+	height: 300px;
+	margin-left: 20%;
+
+}
+.mypage>ul>li {
+	font-size: 40px;
+	font-weight: bold;
+	
+}
+.mypage_pay {
+	width: 100%;
+	height: 150px;
+}
+.mypage_pay>span {
+	width: 500px;
+	height: 100px;
+	background: black;
+	margin-top: 100px;
+	margin-left: 20%;
+}
+.mypage_pay>span>hr {
+	width: 130px;
+	height: 10px;
+	background: black;
+	margin-right: 55%;
+	margin-top: 30px;
+}
+.mypage_pay>span>h4 {
+	font-size: 30px;
+	width: 500px;
+	height: 50px;
+	margin-top: 10px;
+	margin-left: 20%;
+}
+.pwu {
+	font-size: 30px;
+	color: skyblue;
+	font-weight: bold;
+	margin-left: 60px;
+}
+.dateu {
+	font-size: 30px;
+	color: skyblue;
+	font-weight: bold;
+	margin-left: 60px;
+}
+.telu {
+	font-size: 30px;
+	color: skyblue;
+	font-weight: bold;
+	margin-left: 60px;
+}
+.create {
+	width: 50%;
+	height: 800px;
+	background-image: url("image/m1.jpg");
+	margin: auto;
+	border-radius: 100px;
+	margin-top: 100px;
+}
+.create>a {
+	font-family: 'PT Serif', serif;
+	font-size: 100px;
+	color: skyblue;
+	margin-left: 30%;
+}
+.cteate>form {
+	width: 700px;
+	height: 300px;
+	margin: auto;
+	margin-top: 25px;
+	margin-left: 20%;
+}
+.create>form>input {
+	width: 400px;
+	height: 70px;
+	font-size:20px;
+	border-radius: 40px;
+	border-color: skyblue;
+	border-width: 5px;
+}
+.create>form>input>placeholder {
+	width: 50px;
+}
+.create>form>button {
+	font-family: 'PT Serif', serif;
+	width: 400px;
+	height: 70px;
+	margin-left: 30%;
+	margin-top: 30px;
+	font-size: 30px;
+	color: white;
+	background: skyblue;
+	
+}
+.idc {
+	font-size: 30px;
+	color: skyblue;
+	font-weight: bold;
+	magin-left: 60px;
+	margin-left: 200px;
+	
+}
+.pwc {
+	font-size: 30px;
+	color: skyblue;
+	font-weight: bold;
+	magin-left: 60px;
+	margin-left: 200px;
+	
+}
+.namec {
+	font-size: 30px;
+	color: skyblue;
+	font-weight: bold;
+	magin-left: 60px;
+	margin-left: 200px;
+	
+}
+.birthc {
+	font-size: 30px;
+	color: skyblue;
+	font-weight: bold;
+	magin-left: 60px;
+	margin-left: 200px;
+	
+}
+.telc {
+	font-size: 30px;
+	color: skyblue;
+	font-weight: bold;
+	magin-left: 60px;
+	margin-left: 200px;
+	
+}
